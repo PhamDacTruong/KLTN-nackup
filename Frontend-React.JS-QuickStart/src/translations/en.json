@@ -1,0 +1,145 @@
+{
+    "homeheader" :{
+        "speciality" : "Medical specialty",
+        "searchdoctor" : "Find a doctor by specialty",
+        "health-facility" : "Health facilities",
+        "select-room" : "Choose a clinic hospital",
+        "doctor" : "Doctor",
+        "select-doctor" : "Choose a doctor",
+        "fee" : "Checkup package",
+        "check-health" : "General health check",
+        "support" : "Support",
+        "welcome" : "Welcome, "
+    },
+    "banner" :{
+        "title1" : "THE HEALTHCARE SYSTEM",
+        "title2" : "HEALTH CARE TEAM",
+        "child1" : "Specialist examination",
+        "child2" : "Remote examination",
+        "child3" : "General examination",
+        "child4" : "Medical test",
+        "child5" : "Mental health",
+        "child6" : "Dental examination"
+    },
+   
+    
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Manage user using redux",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+
+        "admin" : {
+            "manage-user" : "User system",
+            "manage-doctor" : "Manage doctor information",
+            "manage-admin" : "Admin Management",
+            "crud" : "List of accounts",
+            "crud-redux" : "Doctor accounts management",
+            "manage-clinic" : "Clinic manager",
+            "clinic" : "Clinic",
+            "specialty" : "Specialized management",
+            "manage-specialty" : "Add or remove specialties",
+            "edit-specialty" : "Edit specialties information",
+            "manage-handbook" : "Handbook Management",
+            "handbook" : "Handbook"
+           
+        },
+        "doctor" : {
+            "manage-schedule" : "Add Doctor's Schedule",
+            "manage-patient" : "Manage Doctor's Patient"
+        }
+    },
+    "manage-user" :{
+        "add" : "Add New User",
+        "email" : "Email",
+        "password" : "Password",
+        "firstName" : "First Name",
+        "lastName" : "Last Name",
+        "phoneNumber" : "Phone Number",
+        "address" : "Address",
+        "gender" : "Gender",
+        "position" : "Position",
+        "role" : "Role",
+        "image" : "Avatar",
+        "save" : "Save User",
+        "edit" : "Edit User"
+    },
+    "homepage" :{
+        "outstandingdoctor" : "Outstanding Doctor of the Week",
+        "info-more" : "More Info",
+        "popular" : "Popular specialty"
+    },
+    "manga-schedule" :{
+        "title" : "Add doctor's examination plan",
+        "choose-doctor" : "Choose doctor",
+        "choose-date" : "Choose date",
+        "save-info" : "Save info"
+        
+    },
+    "patient" :{
+        "detail-doctor" : {
+            "schedule" : "Schedule",
+            "none" : "No appointment, please choose another date",
+            "choose" : "Choose",
+            "book-free"  : " and book free"
+        },
+        "extra-infor-doctor" : {
+            "address-patient" : "ADDRESS FOR MEDICAL EXAMINATION",
+            "price-patient" : "PRICE :",
+            "price-patient1" : "Price :",
+            "details" : "See details",
+            "payment" : "Patients can pay the costs in the following forms :",
+            "hide" : "Hide price list"
+        },
+        "booking-modal" : {
+            "title" : "Information to book a medical appointment",
+            "name" : "Full name",
+            "phone" : "Phone number",
+            "email" : "Email",
+            "address" : "Address",
+            "reason" : "Reason for examination",
+            "date" : "Date of birth",
+            "sex" :  "Sex",
+            "confirm": "Confirm",
+            "cancel" : "Cancel",
+            "free"  : "Free booking",
+            "price" : "Examination price"
+        },
+        "specialty" : {
+            "save" :"Save",
+            "edit" :"Edit"
+        },
+        "clinic" : {
+            "save" :"Save",
+            "edit" :"Edit"
+        }
+        
+    },
+    "admin" : {
+        "manage-doctor" : {
+            "title" : "Create doctor information",
+            "choose-doctor" : "Choose doctor",
+            "info" : "Introductory information",
+            "create-info" : "Create information",
+            "save-info" : "Save info",
+            "price" : "Price of medical examination",
+            "payment" : "Payment methods",
+            "province" : "Choose a province",
+            "clinic" : "Clinic name",
+            "address" : "Clinic address",
+            "note" : "Note",
+            "choose-specialty" : "Choose a specialty",
+            "choose-clinic" : "Choose a clinic"
+
+
+        }
+    }
+}

@@ -1,0 +1,116 @@
+div._loading_overlay_wrapper{
+    position: unset;
+
+    ._loading_overlay_overlay{
+        z-index: 100000 ;
+    }
+}
+.manage-patient-container{
+    .m-s-title{
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+    }
+    .manage-patient-body{
+        padding: 0 20px;
+        .table-manage-patient{
+            table,th,td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th,td {
+                padding: 5px;
+                text-align: left;
+            }
+            button {
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+            .btn-confirm{
+                margin-right: 10px;
+                height: 30px;
+                border-radius: 3px;
+                background : orange;
+            }
+            .btn-info{
+                margin-right: 10px;
+                height: 30px;
+                border-radius: 3px;
+                background : #17a2b8;
+            }
+            .btn-send{
+                height: 30px;
+                border-radius: 3px;
+                background : #ccc;
+            }
+        }
+    }
+}
+
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .modal-container {
+      background-color: #fff;
+      width: 650px;
+      padding: 20px;
+      border-radius: 4px;
+  
+      .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+  
+        h3 {
+          margin: 0;
+        }
+  
+        .close-modal-btn {
+          background-color: transparent;
+          border: none;
+          font-size: 24px;
+          cursor: pointer;
+          color: #999;
+        }
+      }
+  
+      .modal-body {
+        margin-top: 10px;
+  
+        .modal-info {
+          display: flex;
+          margin-bottom: 10px;
+  
+          .modal-info-label {
+            font-weight: bold;
+            width: 123px;
+          }
+  
+          .modal-info-value {
+            flex-grow: 1;
+            &::before {
+              content: ":";
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
